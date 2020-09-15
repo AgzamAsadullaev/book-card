@@ -1,0 +1,118 @@
+/*
+font-family: 'Noto Serif', serif;
+font-family: 'PT Sans', sans-serif;
+*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #e3f2fd;
+    position: relative;
+    height: 100%;
+}
+
+img {
+    height: auto;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 967px;
+    height: 644px;
+    padding-top: 60px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 55px 0px rgba(181, 220, 248, 0.004);
+}
+
+.card-img-wrapper {
+    float: left;
+    width: 370px;
+}
+
+.card-content-wrapper {
+    float: right;
+    width: 426px;
+}
+
+.card-book {
+    margin-top: 14px;
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #bfc5c8;
+    line-height: 1;
+}
+
+.card-title {
+    margin-top: 12px;
+    font-family: 'Noto Serif', serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #01a4bd;
+    line-height: 1.2;
+}
+
+.card-text {
+    margin-top: 20px;
+}
+
+.card-text p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #808790;
+    line-height: 1.2;
+}
+
+.card-details-wrapper {
+    margin-top: 18px;
+}
+
+.card-label {
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #bfc5c8;
+    line-height: 1;
+}
+
+.card-price {
+    margin-top: 8px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1;
+}
+
+.card-button {
+    margin-top: 25px;
+}
+
+.button-primary {
+    width: 174px;
+    background-color: #e2013b;
+    text-align: center;
+    border-radius: 5px;
+
+    padding-top: 13px;
+    padding-bottom: 16px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
